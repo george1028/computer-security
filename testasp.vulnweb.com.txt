@@ -1,0 +1,926 @@
+[Sun 26 Apr 2015 19:44:45 AWST] The page is written in: "en".
+[Sun 26 Apr 2015 19:44:45 AWST] The server header for the remote web server is: "Microsoft-IIS/6.0". This information was found in the request with id 33.
+[Sun 26 Apr 2015 19:44:45 AWST] Hmap web server fingerprint is starting, this may take a while.
+[Sun 26 Apr 2015 19:44:46 AWST] The x-powered-by header for the target HTTP server is "ASP.NET". This information was found in the request with id 51.
+[Sun 26 Apr 2015 19:44:46 AWST] halberd plugin is starting. Original halberd author: Juan M. Bello Rivas; http://halberd.superadditive.com/
+[Sun 26 Apr 2015 19:44:46 AWST] audit.rfi plugin needs to be correctly configured to use. Please set valid values for local address (eg. 10.5.2.5) and port (eg. 44449), or use the official w3af site as the target server for remote inclusions. The configuration error is: "Listen address and port need to be configured"
+[Sun 26 Apr 2015 19:44:46 AWST] The URI: "http://testasp.vulnweb.com/?sK9Ioil=DdxkYHd" has a parameter named: "RetURL" with value: "/Default.asp?sK9Ioil=DdxkYHd", which is very uncommon. and requires manual verification. This information was found in the request with id 54.
+[Sun 26 Apr 2015 19:44:46 AWST] The URI: "http://testasp.vulnweb.com/?sK9Ioil=DdxkYHd" has a parameter named: "RetURL" with value: "/Default.asp?sK9Ioil=DdxkYHd", which is very uncommon. and requires manual verification. This information was found in the request with id 54.
+[Sun 26 Apr 2015 19:44:47 AWST] The target site has NO DNS wildcard, and the contents of "http://vulnweb.com/" differ from the contents of "http://testasp.vulnweb.com/". This information was found in the request with id 64.
+[Sun 26 Apr 2015 19:44:48 AWST] The contents of http://87.230.29.167/ and http://testasp.vulnweb.com/ differ. This information was found in the request with id 98.
+[Sun 26 Apr 2015 19:44:50 AWST] The remote web server doesn't seem to have a reverse proxy.
+[Sun 26 Apr 2015 19:44:56 AWST] ======================================================================
+http://testasp.vulnweb.com/ (87.230.29.167): 1 real server(s)
+======================================================================
+
+server 1: Microsoft-IIS/6.0
+----------------------------------------------------------------------
+
+difference: 28800 seconds
+successful requests: 17 hits (100.00%)
+cookie(s):
+  ASPSESSIONIDQQDBQATB=JODNMLFCFDKJELEGMPIHLKAO; path=/
+header fingerprint: bdec610765ad5bc5be97a5717bd663c2763e8879
+headers:
+[('Date', ' Sun, 26 Apr 2015 11:44:48 GMT'),
+ ('Server', ' Microsoft-IIS/6.0'),
+ ('X-Powered-By', ' ASP.NET'),
+ ('Content-Length', ' 2648'),
+ ('Content-Type', ' text/html'),
+ ('Set-Cookie', ' ASPSESSIONIDQQDBQATB=JODNMLFCFDKJELEGMPIHLKAO; path=/'),
+ ('Cache-control', ' private')]
+
+[Sun 26 Apr 2015 19:44:57 AWST] New URL found by bing_spider plugin: "http://testasp.vulnweb.com/"
+[Sun 26 Apr 2015 19:44:58 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Default.asp"
+[Sun 26 Apr 2015 19:44:58 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:44:58 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showforum.asp"
+[Sun 26 Apr 2015 19:44:58 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:44:58 AWST] A robots.txt file was found at: "http://testasp.vulnweb.com/robots.txt", this file might expose private URLs and requires a manual review. The scanner will add all URLs listed in this files to the analysis queue. This information was found in the request with id 355.
+[Sun 26 Apr 2015 19:44:58 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/styles.css"
+[Sun 26 Apr 2015 19:44:59 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showforum.asp"
+[Sun 26 Apr 2015 19:44:59 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showforum.asp"
+[Sun 26 Apr 2015 19:44:59 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Templatize.asp"
+[Sun 26 Apr 2015 19:44:59 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Search.asp"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Images/logo.gif"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by phpinfo plugin: "http://testasp.vulnweb.com/"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by phpinfo plugin: "http://testasp.vulnweb.com/"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by robots_txt plugin: "http://testasp.vulnweb.com/robots.txt"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by robots_txt plugin: "http://testasp.vulnweb.com/"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showforum.asp"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showforum.asp"
+[Sun 26 Apr 2015 19:45:00 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Templatize.asp"
+[Sun 26 Apr 2015 19:45:01 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/Register.asp. This vulnerability was found in the request with id 396.
+[Sun 26 Apr 2015 19:45:02 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:04 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:04 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:04 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Templatize.asp"
+[Sun 26 Apr 2015 19:45:04 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Templatize.asp"
+[Sun 26 Apr 2015 19:45:04 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:04 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/"
+[Sun 26 Apr 2015 19:45:05 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/showforum.asp. This vulnerability was found in the request with id 421.
+[Sun 26 Apr 2015 19:45:05 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:05 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Templatize.asp"
+[Sun 26 Apr 2015 19:45:06 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:06 AWST] Your ISP has no transparent proxy.
+[Sun 26 Apr 2015 19:45:07 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:07 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:07 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 612.
+[Sun 26 Apr 2015 19:45:07 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 612.
+[Sun 26 Apr 2015 19:45:07 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/showforum.asp", using HTTP method GET. The sent data was: "id=a%27b%22c%27d%22" The modified parameter was "id". This vulnerability was found in the request with id 612.
+[Sun 26 Apr 2015 19:45:07 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showthread.asp"
+[Sun 26 Apr 2015 19:45:07 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showthread.asp"
+[Sun 26 Apr 2015 19:45:07 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showthread.asp"
+[Sun 26 Apr 2015 19:45:07 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showthread.asp"
+[Sun 26 Apr 2015 19:45:07 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/showthread.asp"
+[Sun 26 Apr 2015 19:45:08 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Search.asp"
+[Sun 26 Apr 2015 19:45:10 AWST] Fingerprinted this host as a Microsoft Windows system. This information was found in the requests with ids 681 and 704.
+[Sun 26 Apr 2015 19:45:12 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:12 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:13 AWST] New URL found by phpinfo plugin: "http://testasp.vulnweb.com/Images/"
+[Sun 26 Apr 2015 19:45:13 AWST] New URL found by phpinfo plugin: "http://testasp.vulnweb.com/Images/"
+[Sun 26 Apr 2015 19:45:14 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:14 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:15 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/Login.asp. This vulnerability was found in the request with id 450.
+[Sun 26 Apr 2015 19:45:15 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:16 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:16 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Register.asp"
+[Sun 26 Apr 2015 19:45:17 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Login.asp"
+[Sun 26 Apr 2015 19:45:19 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/avatars/noavatar.gif"
+[Sun 26 Apr 2015 19:45:20 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/avatars/noavatar.gif"
+[Sun 26 Apr 2015 19:45:20 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Search.asp"
+[Sun 26 Apr 2015 19:45:21 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Logout.asp"
+[Sun 26 Apr 2015 19:45:22 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Search.asp"
+[Sun 26 Apr 2015 19:45:23 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Logout.asp"
+[Sun 26 Apr 2015 19:45:23 AWST] New URL found by phpinfo plugin: "http://testasp.vulnweb.com/avatars/"
+[Sun 26 Apr 2015 19:45:23 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Search.asp"
+[Sun 26 Apr 2015 19:45:23 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Search.asp"
+[Sun 26 Apr 2015 19:45:23 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Images/"
+[Sun 26 Apr 2015 19:45:23 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Logout.asp"
+[Sun 26 Apr 2015 19:45:24 AWST] New URL found by phpinfo plugin: "http://testasp.vulnweb.com/avatars/"
+[Sun 26 Apr 2015 19:45:25 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Logout.asp"
+[Sun 26 Apr 2015 19:45:25 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/avatars/"
+[Sun 26 Apr 2015 19:45:25 AWST] New URL found by web_spider plugin: "http://testasp.vulnweb.com/Logout.asp"
+[Sun 26 Apr 2015 19:45:26 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:26 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:27 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:27 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:27 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 1315.
+[Sun 26 Apr 2015 19:45:27 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 1315.
+[Sun 26 Apr 2015 19:45:27 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:28 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:28 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:29 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:29 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:29 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:29 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:30 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:30 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:30 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:31 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:31 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:31 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:31 AWST] Blind SQL injection was found at: "http://testasp.vulnweb.com/Login.asp", using HTTP method GET. The injectable parameter is: "RetURL". This vulnerability was found in the requests with ids 1409 and 1418.
+[Sun 26 Apr 2015 19:45:31 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:31 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:32 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:32 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:32 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:32 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:33 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:33 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:34 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:34 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:34 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:34 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:35 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:35 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:35 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:35 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 1567.
+[Sun 26 Apr 2015 19:45:35 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 1567.
+[Sun 26 Apr 2015 19:45:36 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:36 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:36 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:36 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:36 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:36 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:37 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:37 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:37 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:37 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:38 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:38 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:38 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:39 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:39 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:39 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:39 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:40 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:40 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:40 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:40 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:41 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:42 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:42 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:43 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:44 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/Templatize.asp. This vulnerability was found in the request with id 616.
+[Sun 26 Apr 2015 19:45:44 AWST] An arbitrary local file read vulnerability was found at: "http://testasp.vulnweb.com/Templatize.asp", using HTTP method GET. The sent data was: "item=Templatize.asp" The modified parameter was "item". This vulnerability was found in the request with id 1771.
+[Sun 26 Apr 2015 19:45:45 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:46 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:48 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:49 AWST] The remote Web server sent a strange HTTP reasonmessage "Object moved", manual inspection is recommended. This information was found in the request with id 725.
+[Sun 26 Apr 2015 19:45:49 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:49 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:49 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:50 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:53 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:54 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/. This vulnerability was found in the request with id 697.
+[Sun 26 Apr 2015 19:45:55 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:56 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:56 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:57 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:57 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:57 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:57 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:58 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:58 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:58 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:58 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:59 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:59 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:59 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:59 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:45:59 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:00 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:00 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:00 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:00 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:01 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:01 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:01 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:02 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:02 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:02 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:03 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:04 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:04 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:04 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:05 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:05 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:05 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:05 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:06 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:06 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:06 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:07 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:07 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:07 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:07 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:08 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:08 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:08 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:08 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:08 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:09 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:09 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:10 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:10 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:10 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:10 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:10 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:11 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:11 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:11 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:11 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:11 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:12 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:13 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:13 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:14 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:14 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:15 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:16 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:16 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:16 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:16 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:17 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:17 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:17 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:17 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:17 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:17 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:17 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:18 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:18 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:18 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:18 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:19 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:19 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:19 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:19 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:20 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:20 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:20 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:20 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:21 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:21 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:21 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:21 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:22 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:22 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:22 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:22 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:22 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:23 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:23 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:23 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:23 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:24 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:24 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:25 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:25 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:25 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:26 AWST] The URL: "http://testasp.vulnweb.com/Templatize.asp" contains the descriptive error: "<p>Microsoft VBScript runtime </font>". This information was found in the request with id 1753.
+[Sun 26 Apr 2015 19:46:27 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:28 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:29 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:29 AWST] The URI: "http://testasp.vulnweb.com/Templatize.asp?item=" has a parameter named: "RetURL" with value: "/Templatize.asp?item=8KFCGmEk", which is very uncommon. and requires manual verification. This information was found in the request with id 1822.
+[Sun 26 Apr 2015 19:46:29 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:31 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:32 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:33 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 2748.
+[Sun 26 Apr 2015 19:46:33 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 2748.
+[Sun 26 Apr 2015 19:46:34 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:38 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:39 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:41 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:46:48 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 3122.
+[Sun 26 Apr 2015 19:46:48 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 3122.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 3559.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 3559.
+[Sun 26 Apr 2015 19:47:09 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/Register.asp?RetURL=/Default.asp?", using HTTP method POST. The sent post-data was: "...tfUName=a'b"c'd"..." which modifies the "tfUName" parameter. This vulnerability was found in the request with id 3559.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 3560.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 3560.
+[Sun 26 Apr 2015 19:47:09 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/Register.asp?RetURL=/Default.asp?", using HTTP method POST. The sent post-data was: "...tfEmail=a'b"c'd"..." which modifies the "tfEmail" parameter. This vulnerability was found in the request with id 3560.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 3561.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 3561.
+[Sun 26 Apr 2015 19:47:09 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/Register.asp?RetURL=/Default.asp?", using HTTP method POST. The sent post-data was: "...tfRName=a'b"c'd"..." which modifies the "tfRName" parameter. This vulnerability was found in the request with id 3561.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 3563.
+[Sun 26 Apr 2015 19:47:09 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 3563.
+[Sun 26 Apr 2015 19:47:09 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/Register.asp?RetURL=/Default.asp?", using HTTP method POST. The sent post-data was: "...tfUPass=a'b"c'd"..." which modifies the "tfUPass" parameter. This vulnerability was found in the request with id 3563.
+[Sun 26 Apr 2015 19:47:20 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:20 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:21 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:21 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:21 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:22 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:22 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:22 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:26 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:32 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:33 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:33 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:33 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:33 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:33 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:34 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:34 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:34 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:39 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:39 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:39 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:39 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:40 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:40 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:40 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:40 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:40 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:41 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:41 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:42 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:43 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:44 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:45 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:45 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:46 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:47 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:48 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:48 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:49 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:50 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:50 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:50 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:50 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:51 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:51 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:51 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:52 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:52 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:53 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:53 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:54 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:55 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:56 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:57 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:58 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:58 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:59 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:47:59 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:01 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:01 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:04 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:08 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:10 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:13 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:15 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:18 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:21 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:36 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:36 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:37 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:37 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:37 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:37 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:37 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:38 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:41 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:41 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:42 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:44 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:44 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:46 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:47 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:48 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:48:48 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a path disclosure vulnerability which discloses "/bin/cat". This vulnerability was found in the request with id 5338.
+[Sun 26 Apr 2015 19:48:56 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 5464.
+[Sun 26 Apr 2015 19:48:56 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 5464.
+[Sun 26 Apr 2015 19:48:56 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/Login.asp?RetURL=/Default.asp?", using HTTP method POST. The sent post-data was: "tfUName=John&tfUPass=a%27b%22c%27d%22" which modifies the "tfUPass" parameter. This vulnerability was found in the request with id 5464.
+[Sun 26 Apr 2015 19:48:56 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 5466.
+[Sun 26 Apr 2015 19:48:56 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 5466.
+[Sun 26 Apr 2015 19:48:56 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/Login.asp?RetURL=/Default.asp?", using HTTP method POST. The sent post-data was: "tfUName=a%27b%22c%27d%22&tfUPass=FrAmE30." which modifies the "tfUName" parameter. This vulnerability was found in the request with id 5466.
+[Sun 26 Apr 2015 19:49:04 AWST] Global redirect was found at: "http://testasp.vulnweb.com/Login.asp", using HTTP method POST. The sent data was: "RetURL=%2F%2Fw3af.org" The modified parameter was "RetURL". This vulnerability was found in the request with id 5558.
+[Sun 26 Apr 2015 19:49:12 AWST] A Cross Site Scripting vulnerability was found at: "http://testasp.vulnweb.com/Login.asp", using HTTP method POST. The sent data was: "RetURL=ujw22%2F%2A" The modified parameter was "RetURL". This vulnerability was found in the request with id 5608.
+[Sun 26 Apr 2015 19:49:47 AWST] An unhandled exception occurred while running hmap: ""
+[Sun 26 Apr 2015 19:49:48 AWST] Found 15 URLs and 34 different injections points.
+[Sun 26 Apr 2015 19:49:48 AWST] The URL list is:
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Default.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Images/
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Images/logo.gif
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Login.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Logout.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Register.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Search.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/Templatize.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/avatars/
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/avatars/noavatar.gif
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/robots.txt
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/showforum.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/showthread.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - http://testasp.vulnweb.com/styles.css
+[Sun 26 Apr 2015 19:49:48 AWST] The list of fuzzable requests is:
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/ | Query string: (mode)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/ | Query string: (view)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Default.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Images/
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Images/ | Query string: (mode)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Images/ | Query string: (view)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Images/logo.gif
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Login.asp | Query string: (RetURL)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Login.asp | Query string: (RetURL)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Logout.asp | Query string: (RetURL)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Register.asp | Query string: (RetURL)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Register.asp | Query string: (RetURL)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Search.asp
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Search.asp | URL encoded form: (tfSearch)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/Templatize.asp | Query string: (item)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/avatars/
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/avatars/ | Query string: (mode)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/avatars/ | Query string: (view)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/avatars/noavatar.gif
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/robots.txt
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/showforum.asp | Query string: (id)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/showforum.asp | Query string: (id)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/showforum.asp | Query string: (id)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/showthread.asp | Query string: (id)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/showthread.asp | Query string: (id)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/showthread.asp | Query string: (id)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/showthread.asp | Query string: (id)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: GET | http://testasp.vulnweb.com/styles.css
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: POST | http://testasp.vulnweb.com/Login.asp | URL encoded form: (tfUName,tfUPass)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: POST | http://testasp.vulnweb.com/Login.asp | URL encoded form: (tfUName,tfUPass)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: POST | http://testasp.vulnweb.com/Register.asp | URL encoded form: (tfUName,tfRName,tfEmail,tfUPass)
+[Sun 26 Apr 2015 19:49:48 AWST] - Method: POST | http://testasp.vulnweb.com/Register.asp | URL encoded form: (tfUName,tfRName,tfEmail,tfUPass)
+[Sun 26 Apr 2015 19:49:50 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:01 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:02 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:02 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:03 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:03 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:03 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:03 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:04 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:06 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:07 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:08 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:09 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:09 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:10 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:11 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:12 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:12 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:13 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:14 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:14 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:14 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:14 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:15 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:15 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:15 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:15 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:16 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:22 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:23 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:26 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:27 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:27 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:27 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:28 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:28 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:28 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:28 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:28 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:29 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:30 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:30 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:31 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:32 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:33 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:34 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:39 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:40 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:40 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:42 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:43 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:43 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:44 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:45 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:46 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:46 AWST] The URL: "http://testasp.vulnweb.com/Register.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:46 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 6889.
+[Sun 26 Apr 2015 19:50:46 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 6889.
+[Sun 26 Apr 2015 19:50:46 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/showthread.asp", using HTTP method GET. The sent data was: "id=a%27b%22c%27d%22" The modified parameter was "id". This vulnerability was found in the request with id 6889.
+[Sun 26 Apr 2015 19:50:47 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:48 AWST] The URL: "http://testasp.vulnweb.com/Login.asp" has a "<form>" element with auto-complete enabled.
+[Sun 26 Apr 2015 19:50:56 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 7074.
+[Sun 26 Apr 2015 19:50:56 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 7074.
+[Sun 26 Apr 2015 19:51:06 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 7270.
+[Sun 26 Apr 2015 19:51:06 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 7270.
+[Sun 26 Apr 2015 19:51:14 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 7454.
+[Sun 26 Apr 2015 19:51:14 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 7454.
+[Sun 26 Apr 2015 19:51:22 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 7639.
+[Sun 26 Apr 2015 19:51:22 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 7639.
+[Sun 26 Apr 2015 19:51:29 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/Search.asp. This vulnerability was found in the request with id 1496.
+[Sun 26 Apr 2015 19:51:31 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 7828.
+[Sun 26 Apr 2015 19:51:31 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 7828.
+[Sun 26 Apr 2015 19:51:32 AWST] SQL injection in a Microsoft SQL database was found at: "http://testasp.vulnweb.com/Search.asp", using HTTP method GET. The sent data was: "tfSearch=a%27b%22c%27d%22" The modified parameter was "tfSearch". This vulnerability was found in the request with id 7828.
+[Sun 26 Apr 2015 19:51:38 AWST] A Cross Site Scripting vulnerability was found at: "http://testasp.vulnweb.com/Search.asp", using HTTP method GET. The sent data was: "tfSearch=" The modified parameter was "tfSearch". This vulnerability was found in the request with id 7920.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 8056.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 8056.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 8059.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 8059.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 8060.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 8060.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 8061.
+[Sun 26 Apr 2015 19:51:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 8061.
+[Sun 26 Apr 2015 19:52:18 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 8655.
+[Sun 26 Apr 2015 19:52:18 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 8655.
+[Sun 26 Apr 2015 19:52:18 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 8656.
+[Sun 26 Apr 2015 19:52:18 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 8656.
+[Sun 26 Apr 2015 19:52:39 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/Images/. This vulnerability was found in the request with id 1627.
+[Sun 26 Apr 2015 19:53:42 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 9703.
+[Sun 26 Apr 2015 19:53:42 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 9703.
+[Sun 26 Apr 2015 19:53:43 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 9709.
+[Sun 26 Apr 2015 19:53:43 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 9709.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 10166.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 10166.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 10167.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 10167.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 10171.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 10171.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 10172.
+[Sun 26 Apr 2015 19:54:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 10172.
+[Sun 26 Apr 2015 19:54:59 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 10915.
+[Sun 26 Apr 2015 19:54:59 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 10915.
+[Sun 26 Apr 2015 19:54:59 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 10916.
+[Sun 26 Apr 2015 19:54:59 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 10916.
+[Sun 26 Apr 2015 19:56:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 11697.
+[Sun 26 Apr 2015 19:56:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 11697.
+[Sun 26 Apr 2015 19:56:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 11698.
+[Sun 26 Apr 2015 19:56:13 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 11698.
+[Sun 26 Apr 2015 19:56:14 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 11699.
+[Sun 26 Apr 2015 19:56:14 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 11699.
+[Sun 26 Apr 2015 19:56:14 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 11700.
+[Sun 26 Apr 2015 19:56:14 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 11700.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 12487.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 12487.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 12489.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 12489.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 12488.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 12488.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 12490.
+[Sun 26 Apr 2015 19:57:15 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 12490.
+[Sun 26 Apr 2015 19:58:11 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 13209.
+[Sun 26 Apr 2015 19:58:11 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 13209.
+[Sun 26 Apr 2015 19:58:12 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 13213.
+[Sun 26 Apr 2015 19:58:12 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 13213.
+[Sun 26 Apr 2015 19:59:07 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 13781.
+[Sun 26 Apr 2015 19:59:07 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 13781.
+[Sun 26 Apr 2015 19:59:11 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/Logout.asp. This vulnerability was found in the request with id 1932.
+[Sun 26 Apr 2015 19:59:32 AWST] Global redirect was found at: "http://testasp.vulnweb.com/Logout.asp", using HTTP method GET. The sent data was: "RetURL=http%3A%2F%2Fwww.w3af.org%2F" The modified parameter was "RetURL". This vulnerability was found in the request with id 14088.
+[Sun 26 Apr 2015 19:59:34 AWST] A Cross Site Scripting vulnerability was found at: "http://testasp.vulnweb.com/Logout.asp", using HTTP method GET. The sent data was: "RetURL=f9q0f%2F%2A" The modified parameter was "RetURL". This vulnerability was found in the request with id 14115.
+[Sun 26 Apr 2015 19:59:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 14297.
+[Sun 26 Apr 2015 19:59:45 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 14297.
+[Sun 26 Apr 2015 20:00:04 AWST] Cross Site Request Forgery has been found at: http://testasp.vulnweb.com/avatars/. This vulnerability was found in the request with id 1973.
+[Sun 26 Apr 2015 20:00:26 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 15004.
+[Sun 26 Apr 2015 20:00:26 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 15004.
+[Sun 26 Apr 2015 20:00:39 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "'80040e14'". The error was found on response with id 15226.
+[Sun 26 Apr 2015 20:00:39 AWST] A SQL error was found in the response supplied by the web application, the error is (only a fragment is shown): "Incorrect syntax near". The error was found on response with id 15226.
+[Sun 26 Apr 2015 20:02:17 AWST] An unidentified vulnerability was found at: "http://testasp.vulnweb.com/Register.asp", using HTTP method POST. The sent data was: "RetURL=d%27kc%22z%27gj%27%22%2A%2A5%2A%28%28%28%3B-%2A%60%29" The modified parameter was "RetURL". This vulnerability was found in the requests with ids 1005, 3627 and 3652.
+[Sun 26 Apr 2015 20:02:37 AWST] A comment containing "InstanceEnd" was found on these URL(s):
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] A comment containing "InstanceEndEditable" was found on these URL(s):
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] A comment containing "InstanceBeginEditable name="head"" was found on these URL(s):
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] A comment containing "InstanceBeginEditable name="doctitle"" was found on these URL(s):
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] A comment with the string "InstanceBeginEditable name="MainContentL..." (and 4 more bytes) was found on these URL(s):
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] A comment with the string "InstanceBegin template="/Templates/MainT..." (and 48 more bytes) was found on these URL(s):
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] A comment with the string "'</div><table width="100%" cellspacing="..." (and 70 more bytes) was found on these URL(s):
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/ (request with id: 16)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Default.asp (request with id: 402)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Login.asp (request with id: 534)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Register.asp (request with id: 420)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 641)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Search.asp (request with id: 7918)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/Templatize.asp (request with id: 623)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showforum.asp (request with id: 505)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] - http://testasp.vulnweb.com/showthread.asp (request with id: 960)
+[Sun 26 Apr 2015 20:02:37 AWST] An unidentified web application error (HTTP response code 500) was found at: "http://testasp.vulnweb.com/showforum.asp". Enable all plugins and try again, if the vulnerability still is not identified, please verify manually and report it to the w3af developers. This vulnerability was found in the request with id 550.
+[Sun 26 Apr 2015 20:02:38 AWST] An unidentified web application error (HTTP response code 500) was found at: "http://testasp.vulnweb.com/Templatize.asp". Enable all plugins and try again, if the vulnerability still is not identified, please verify manually and report it to the w3af developers. This vulnerability was found in the request with id 1752.
+[Sun 26 Apr 2015 20:02:39 AWST] An unidentified web application error (HTTP response code 500) was found at: "http://testasp.vulnweb.com/Register.asp". Enable all plugins and try again, if the vulnerability still is not identified, please verify manually and report it to the w3af developers. This vulnerability was found in the request with id 3827.
+[Sun 26 Apr 2015 20:02:39 AWST] An unidentified web application error (HTTP response code 500) was found at: "http://testasp.vulnweb.com/showthread.asp". Enable all plugins and try again, if the vulnerability still is not identified, please verify manually and report it to the w3af developers. This vulnerability was found in the request with id 6797.
+[Sun 26 Apr 2015 20:02:41 AWST] An unidentified web application error (HTTP response code 500) was found at: "http://testasp.vulnweb.com/Search.asp". Enable all plugins and try again, if the vulnerability still is not identified, please verify manually and report it to the w3af developers. This vulnerability was found in the request with id 7917.
+[Sun 26 Apr 2015 20:02:41 AWST] The whole target has no protection (X-Frame-Options header) against Click-Jacking attacks. This vulnerability was found in the requests with ids 16, 99, 121, 123, 147, 180, 194, 201 to 209, 212 to 214, 216 to 226, 228 to 231, 234 to 245, 247 to 251, 253 to 262, 264 to 265, 269 to 271, 273 to 277, 279 to 281, 283, 287 to 289, 292 to 293, 295, 297 to 299, 302 to 314, 316 to 317, 319 to 323, 325 to 328, 330 to 336, 338 to 339, 345 to 346, 355, 366, 374 to 376, 378, 380 to 381, 383, 385, 387, 389, 393, 400 to 402, 406, 409 to 411, 413 to 417, 419 to 420, 431, 433, 479, 497, 505, 527, 529, 534, 544, 546, 577, 604, 608, 623, 638 to 639, 641, 658 to 659, 672, 674, 763 to 764, 771, 780, 782, 784 to 785, 788, 790, 794 to 796, 799 to 801, 804 to 808, 810, 815, 818, 843 to 844, 960, 968, 970, 1146 to 1147, 1165 to 1166, 1168, 1171, 1173 to 1174, 1185, 1190, 1196, 1200, 1202 to 1203, 1207 to 1208, 1211, 1224, 1230, 1974, 1981, 13754 and 13780.
+[Sun 26 Apr 2015 20:02:42 AWST] Password profiling TOP 100:
+[Sun 26 Apr 2015 20:02:42 AWST] - [1] acuforum with 3045 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [2] InstanceBeginEditable with 1830 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [3] InstanceEndEditable with 1830 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [4] Acunetix with 1677 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [5] forums with 1645 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [6] Object with 1332 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [7] register with 1258 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [8] login with 1243 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [9] moved with 1110 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [10] Scanner with 1062 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [11] search with 981 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [12] Vulnerability with 855 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [13] site with 614 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [14] codeOutsideHTMLIsLocked with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [15] InstanceBegin with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [16] Copyright with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [17] template with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [18] InstanceEnd with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [19] Demonstration with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [20] head with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [21] doctitle with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [22] false with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [23] Templates with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [24] MainTemplate with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [25] MainContentLeft with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [26] TEST with 610 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [27] here with 429 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [28] your with 414 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [29] Password with 321 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [30] Username with 321 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [31] Moved with 222 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [32] Weather with 217 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [33] right with 215 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [34] Miscellaneous with 213 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [35] Last with 210 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [36] Post with 210 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [37] Posts with 210 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [38] mind with 208 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [39] What with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [40] Talk with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [41] crossing with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [42] Vulnerablity with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [43] Threads with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [44] Forum with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [45] weather with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [46] posted with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [47] Anything with 207 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [48] Email with 162 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [49] logout with 162 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [50] Real with 162 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [51] searched with 72 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [52] admin with 40 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [53] font with 29 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [54] border with 22 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [55] asasas with 18 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [56] 008F00 with 17 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [57] color with 16 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [58] margin with 15 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [59] size with 12 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [60] serif with 12 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [61] solid with 12 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [62] Arial with 11 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [63] Helvetica with 11 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [64] Verdana with 11 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [65] sans with 11 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [66] padding with 11 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [67] Geneva with 11 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [68] 10px with 10 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [69] left with 9 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [70] bottom with 9 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [71] aaasasas with 9 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [72] sasasas with 9 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [73] width with 8 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [74] 12px with 7 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [75] BFFFBF with 7 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [76] background with 6 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [77] localhost with 6 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [78] none with 6 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [79] 00CC00 with 6 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [80] ping with 6 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [81] text with 5 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [82] weight with 5 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [83] Document with 5 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [84] bold with 5 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [85] Untitled with 5 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [86] website with 5 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [87] INPUT with 4 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [88] Thread with 3 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [89] security with 3 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [90] Posted with 3 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [91] menu with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [92] height with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [93] TEXTAREA with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [94] postit with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [95] 450px with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [96] Times with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [97] post with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [98] threat with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [99] software with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] - [100] table with 2 repetitions.
+[Sun 26 Apr 2015 20:02:42 AWST] Scan finished in 18 minutes 12 seconds.
+[Sun 26 Apr 2015 20:02:42 AWST] Stopping the core...
+

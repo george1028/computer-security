@@ -1,0 +1,24 @@
+profiles use fast_scan
+
+plugins
+
+output console
+
+output html_file
+
+output config html_file
+
+set output_file 1.html
+
+back
+
+output config console
+
+set verbose True
+
+back
+
+back
+
+target
+

